@@ -1,3 +1,4 @@
 #!/bin/sh
 
 echo "hi!" > test
+echo "error" >&2
