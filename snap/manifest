@@ -1,0 +1,3 @@
+local-script    test1
+stage           .
+remote-script   test2
