@@ -2,4 +2,3 @@
 
 touch xblah
 echo "not an error"
-echo "error" >&2
