@@ -1,4 +1,5 @@
 #!/bin/sh
 
 echo "hi!" > test
+echo "not error"
 echo "error" >&2
