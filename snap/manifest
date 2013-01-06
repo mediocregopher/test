@@ -3,3 +3,5 @@ choice          "what do you want to test?" \
                 remotescript remote-script test2 | \
                 stage stage . | \
                 donothing pass
+
+stage .
