@@ -1,3 +1,4 @@
-local-script    test1
-stage           .
-remote-script   test2
+choice          "what do you want to test?" \
+                localscript local-script test1 |
+                remotescript remote-script test2 |
+                stage stage .
