@@ -1,9 +1,7 @@
 def run(self):
 
-    self.header("LOOK, A CHOICE")
-    r = self.choice("the choice",
-        {"A":"A","B":"B","C":"C"})
-    self.header("YOU CHOSE {0}".format(r))
+    print(self.get_nodes(["testy"]))
+    print(self.get_nodes_in_group("front_end_nodes"))
 
     self.local_script("test1")
     self.stage('.',['foo'],['bar'])
