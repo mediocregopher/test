@@ -1,2 +1,3 @@
 def run(self):
-    print("hi")
+
+    self.stage('.',['foo'],['bar'])
