@@ -5,3 +5,5 @@ def run(self):
     self.local_script("test1")
     self.stage('.',['foo'],['bar'],fens)
     self.remote_script("test2",fens)
+
+    self.wentlive()
