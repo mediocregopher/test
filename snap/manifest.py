@@ -1,5 +1,7 @@
 def run(self):
 
+    self.tag("wut-it-do")
+
     fens = self.get_nodes_in_group("front_end_nodes")
 
     self.local_script("test1")
