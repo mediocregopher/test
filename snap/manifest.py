@@ -1,10 +1,11 @@
+import os
 def run(self):
 
-    fens = self.get_nodes_in_group("front_end_nodes")
+    self.header(self.get_project_location())
+    self.set_project_location(
+        os.path.join(
+            self.get_project_location(),
+            "2"))
+    self.header(self.get_project_location())
 
-    self.local_script("test1")
-
-    yn = self.choice("Snap to fens?",False)
-    if yn:
-        self.stage('.',['foo'],['bar'],fens)
-        self.remote_script("test2",fens)
+    self.stage('.')
