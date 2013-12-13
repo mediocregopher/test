@@ -1,0 +1,3 @@
+path: github.com/mediocregopher/test
+deps:
+    - loc: github.com/mediocregopher/flagconfig
